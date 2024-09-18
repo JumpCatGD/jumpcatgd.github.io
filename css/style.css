@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    background-image: url(https://asset.gecdesigns.com/img/wallpapers/beautiful-fantasy-wallpaper-ultra-hd-wallpaper-4k-sr10012418-1706506236698-cover.webp);
+    background-size: cover;
+    color: white;
+    font-family: "League Spartan", sans-serif;
+    padding: 0;
+    margin: 0;
+    max-height: 100vh;
+    backdrop-filter: blur(3);
+}
+
+.flex-con{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    background-color: rgba(16, 16, 16, 0.5);
+    align-items: center;
+    backdrop-filter: blur(3px);
+    gap: 4vh;
+}
+
+.logo h1{
+    padding: 0;
+    margin: 0%;
+}
+
+a {
+    text-decoration: none;
+    -webkit-user-drag: none;
+}
+
+.card {
+    border: 2px solid white;
+    width: 30vw;
+    height: 15vh;
+    border-radius: 4px;
+    color: white;
+    transition: 0.1s linear;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    user-select: none;
+    -moz-user-select: none;
+}
+
+.card-contacts {
+    border: 2px solid white;
+    width: 30vw;
+    height: 15vh;
+    border-radius: 4px;
+    color: white;
+    transition: 0.1s linear;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    user-select: none;
+    -moz-user-select: none;
+    flex-direction: row;
+}
+
+.card-contacts h1 {
+    padding: 0;
+    font-size: 4vw;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.contacts {
+    gap: 4vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.discord:hover {
+    background-color: #5865f2 !important;
+}
+
+.telegram:hover {
+    background-color: #259cd8 !important;
+}
+
+.card-contacts:hover {
+    background-color: black;
+    color: white;
+}
+
+.card-contacts:active {
+    transform: scale(0.95);
+}
+
+.card h1 {
+    padding: 0;
+    font-size: 4vw;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.card:active {
+    transform: scale(0.95);
+}
+
+.card:hover {
+    background-color: white;
+    color: black;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    width: 30vw;
+    height: 15vh;
+    -moz-user-select: none;
+    user-select: none;
+    transition: 0.10s linear;
+    color: white;
+}
+
+.logo img {
+    margin: 3px;
+    border-radius: 50%;
+    border: 1px white solid;
+    background: linear-gradient(to top left, #da9579, #0a2f52);
+    -webkit-user-drag: none;
+    width: 13vh;
+    height: 13vh;
+    object-fit: contain;
+}
+
+.flex-con hr {
+    width: 99%;
+    color: white;
+    background-color: white;
+}
+
+@keyframes fadeOut {
+    from { 
+        opacity: 1; 
+        transform: scale(1);
+    }
+    to { 
+        opacity: 0; 
+        transform: scale(0.8);
+    }
+}
+
+.fade-out {
+    animation: fadeOut 0.75s ease-out forwards;
+}
+
+.hidden {
+    display: none !important;
+}
+
+@keyframes fadeIn {
+    from { 
+        opacity: 0; 
+        transform: scale(0.8);
+    }
+    to { 
+        opacity: 1; 
+        transform: scale(1);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.75s ease-out forwards;
+}
+
+@keyframes textFade {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+.text-fade {
+    animation: textFade 0.25s ease-out forwards;
+}
+
+.text-fade-reverse {
+    animation: textFade 0.25s ease-out reverse forwards;
+}
+
+.logo-click:hover {
+    transform: scale(1.10);
+    cursor: pointer;
+}
+
+.logo-click:active {
+    transform: scale(1);
+}
+
+.about {
+    min-width: 65vw;
+    background: rgba(16, 16, 16, 0.2);
+    backdrop-filter: blur(20px);
+    color: black;
+    padding: 10px;
+    position: fixed;
+    margin-top: 17vh;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    color: white !important;
+    max-width: 90vw;
+    box-shadow: rgba(16, 16, 16, 1) 0px 0px 20px;
+}
+
+/* .about span {
+    background-color: black;
+    color: white;
+    padding: 3px;
+    border-radius: 4px;
+} */
+
+/* .about p::selection {
+    background-color: black;
+    color: white;
+} */
+
+.about h2 {
+    user-select: none;
+}
+
+.about img {
+    width: 35vw;
+    user-select: none;
+}
+
+.support {
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+}
+
+.yoomoney:hover {
+    background-color: #8b3ffd !important;
+}
+
+.boosty:hover {
+    background-color: #f0662b !important;
+}
+
+.DAlerts:hover {
+    background-color: #f58d03 !important;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
