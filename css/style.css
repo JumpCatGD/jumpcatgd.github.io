@@ -118,8 +118,6 @@ a {
     align-items: center;
     justify-content: center;
     gap: 7px;
-    width: 30vw;
-    height: 15vh;
     -moz-user-select: none;
     user-select: none;
     transition: 0.10s linear;
