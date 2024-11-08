@@ -226,6 +226,10 @@ a {
     box-shadow: rgba(16, 16, 16, 1) 0px 0px 20px;
 }
 
+.about img {
+    border-radius: 10px;
+}
+
 /* .about span {
     background-color: black;
     color: white;
